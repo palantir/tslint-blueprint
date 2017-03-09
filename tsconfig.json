@@ -1,0 +1,24 @@
+{
+    "version": "2.2.1",
+    "compilerOptions": {
+        "declaration": true,
+        "lib": ["es6"],
+        "module": "commonjs",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "outDir": "build/",
+        "rootDir": "src/",
+        "sourceMap": false,
+        "strictNullChecks": true,
+        "target": "es5"
+    },
+    "exclude": [
+        "build",
+        "node_modules",
+        "test/rules"
+    ]
+}
