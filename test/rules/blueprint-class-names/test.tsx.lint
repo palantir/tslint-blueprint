@@ -1,0 +1,25 @@
+<div className="pt-callout" />
+                ~~~~~~~~~~ [0]
+
+<div className='pt-callout' />
+                ~~~~~~~~~~ [0]
+
+<MyComponent className="pt-dialog">contents</MyComponent>
+                       ~~~~~~~~~~~ [0]
+
+<div
+    className="pt-dialog"
+              ~~~~~~~~~~~ [0]
+    style={{ height: "50px", width: "50px" }}
+/>
+
+<div className={`pt-${foo}`} />
+                ~~~~~~~~~~~ [0]
+
+<div className={"pt-dialog"} />
+                ~~~~~~~~~~~ [0]
+
+<div className={classNames("pt-button", "custom-klass")} />
+                           ~~~~~~~~~~~ [0]
+
+[0]: Expected a static reference to a Blueprint class name (e.g. Classes from @blueprintjs/core)
