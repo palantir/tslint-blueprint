@@ -1,3 +1,6 @@
 {
-    "extends": "tslint:latest"
+    "extends": "tslint:latest",
+    "rules": {
+        "file-header": [true, "Copyright \\d{4} Palantir Technologies, Inc."]
+    }
 }
