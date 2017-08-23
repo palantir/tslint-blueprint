@@ -1,6 +1,6 @@
 {
   "name": "tslint-blueprint",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Tools to help maintain code style when using TypeScript and Blueprint",
   "main": "tslint-blueprint.json",
   "repository": {
