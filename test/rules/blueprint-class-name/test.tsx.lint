@@ -1,0 +1,18 @@
+const class = "pt-fill";
+              ~~~~~~~~~              [0]
+
+<div className={"pt-fill"} />
+                ~~~~~~~~~            [0]
+
+document.querySelector(".pt-button")
+                       ~~~~~~~~~~~~  [0]
+
+<div className={Classes.FILL} />
+
+<div className={"my-class"} />
+
+<div className={"pt"} />
+
+document.querySelector(".pt")
+
+[0]: Use a constant from Classes or IconClasses instead of a string literal

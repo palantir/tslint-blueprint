@@ -1,5 +1,4 @@
 {
-    "rulesDirectory": "./rules",
     "rules": {
         "blueprint-class-name": true
     }
