@@ -7,6 +7,10 @@ tslint-blueprint
 
 [TSLint](https://github.com/palantir/tslint/) rules to enforce best practices with blueprintjs libraries
 
+### :warning: Deprecated package :warning:
+
+TSLint is [deprecated](https://github.com/palantir/tslint/issues/4534), please use [`@blueprintjs/eslint-plugin`](https://github.com/palantir/blueprint/tree/develop/packages/eslint-plugin) instead of this package.
+
 ### Usage
 
 Sample configuration where `tslint.json` lives adjacent to your `node_modules` folder:
